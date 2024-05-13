@@ -1,0 +1,23 @@
+{
+    "name": "u633419/tecnica",
+    "description": "Instalacion de composer para proyecto Tecnica",
+    "type": "project",
+    "require-dev": {
+        "phpoffice/phpword": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "U633419\\Tecnica\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/pdf-to-image": "^1.2"
+    }
+}

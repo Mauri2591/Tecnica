@@ -1,0 +1,16 @@
+#container_table {
+    height: 400px;
+    overflow-x: auto;
+  }
+  
+  #tabla_usuarios {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
